@@ -1,0 +1,5 @@
+usd = int(input("Nhap so tien USD can doi: "))
+rate = int(input("Nhap ty gia USD/VND: "))
+
+vnd = usd * rate
+print(usd,"$","doi ra se duoc",vnd,"vnd")

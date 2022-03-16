@@ -1,0 +1,5 @@
+c = int(input("Nhap nhiet do C: "))
+
+f = (9*c)/5+32
+
+print("Doi sang bang",f,"do F")

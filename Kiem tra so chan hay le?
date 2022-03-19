@@ -1,4 +1,4 @@
-#nhap vap so n va cho biet co phai so chan khong
+#bai tap dunf if else: nhap vap so n va cho biet co phai so chan khong
 
 a = int(input("Nhap vao mot so nguyen: "))
 
@@ -6,3 +6,14 @@ if a % 2 == 0:
     print("Day la so chan")
 else:
     print("Day la so le")
+
+#bai tap dung if elif else: Nhap vao so n, cho biet co phai so chan, hay le, hay khong phai so tu nhien
+
+a = input()
+a = float(a)
+if a % 2 == 0:
+    print('số chẵn')
+elif a % 2 == 1:
+    print('số lẻ')
+else:
+    print('không phải số tự nhiên')

@@ -1,0 +1,8 @@
+#nhap vap so n va cho biet co phai so chan khong
+
+a = int(input("Nhap vao mot so nguyen: "))
+
+if a % 2 == 0:
+    print("Day la so chan")
+else:
+    print("Day la so le")
